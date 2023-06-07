@@ -193,15 +193,12 @@ to Retract by pressing F2 key.
 Home target
 
 ![image](https://user-images.githubusercontent.com/36288975/173729436-d4d9e8b7-7504-4b24-beda-dd213813557d.png)
+ 
+ ##Program:
+ Developed by: Naveenaa.V.R
+RegisterNumber: 212221220035
 
-
-
-##Program:
-/*
-
-Developed by: Naveenaa.V.R
-RegisterNumber:212221220035
-*/import sys
+import sys
 import os
 sys.path.append(os.path.abspath(r"""E:/RoboDK/Posts/""")) # temporarily add path to POSTS folder
 from KUKA_KRC2 import *
@@ -228,7 +225,8 @@ r.MoveJ(p(1095.8,-820.371,603.458,-180,16.2113,180),[-19.0983,-82.267,77.1178,17
 r.MoveL(p(1254.3,-793.956,621.299,-180,16.2113,180),[-17.094,-63.3582,49.9712,14.2921,59.2667,-19.4312],[0,0,0])
 r.MoveL(p(1354.51,-793.956,621.243,-180,16.2113,180),[-15.1431,-45.9352,20.6798,11.5454,70.4288,-14.5217],[0,0,0])
 r.ProgFinish(r"""Mainprog""")
-r.ProgSave(r"""C:/Users/Naveenaa/Documents/RoboDK""",r"""Mainprog""",True,r"""E:/RoboDK/Other/VSCodium/VSCodium.exe""")
+r.ProgSave(r"""C:/Users/Sudharshna/Documents/RoboDK""",r"""Mainprog""",True,r"""E:/RoboDK/Other/VSCodium/VSCodium.exe""")
+
 Simulation:
 ![image](https://github.com/Naveenaa28/Lab-Ex.-No---5-Design-simulate-an-environment-for-Robot-Painting-using-Robo-DK/assets/131433133/6e10a2de-c7ef-4ba4-8dcf-a47387505f9d)
 ## Results of simulation :
